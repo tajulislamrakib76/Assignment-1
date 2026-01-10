@@ -10,14 +10,44 @@
 
 .navbar{
     display: flex;
+    gap: 346px;
     justify-content: space-between;
     align-items: center;
     padding: 16px 120px;
-    background-color: var(--#FFFFFF, rgba{255, 255, 255, 1});
+    background-color: #FFFFFF;
 }
 
 .navbar .nav-links{
     display: flex;
     gap: 32px;
     align-items: center;
+    list-style-type: none;
+}
+
+.navear .nav-img{
+    width: 139px;
+    height: 60px;
+}
+
+.navbar .btn-hader{
+     width: 164px;
+     height: 44px;
+    display: flex;
+    /* flex-direction: row; */
+    justify-content: center;
+    /* align-items: center; */
+    gap: 10px;
+    padding: 12px 16px;
+    border-radius: 4px;
+    background-color:rgba(70, 145, 101, 1)  ;
+}
+
+.highlight {
+    background-color:#30B868;
+    color: white;
+}
+.navbar .nav-links a {
+    text-decoration: none;
+    color: #333;
+    font-
 }
