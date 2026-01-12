@@ -1,53 +1,88 @@
 *{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-.open-sans-all {
-  font-family: "Open Sans", sans-serif;
-  font-optical-sizing: auto;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-.navbar{
+/* shared style */
+
+.font-open-sans-{
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  
+}
+
+/* Buttons */
+
+.btn-small{ 
+    cursor: pointer;
+    background: #469165;
+    color: white;
+    padding: 12px 16px;
+    border: none;
+    margin-right: 120px;
+    border-radius: 4px;
+}
+
+
+
+/* main style */
+
+header{
+    width: 100% ;
+    background-color: #BBBBBB;
+    /* margin: 0 120px; */
+    
+    
+    
+}
+
+
+nav{
+    /* border: 1px solid wheat; */
     display: flex;
-    gap: 346px;
     justify-content: space-between;
     align-items: center;
-    padding: 16px 120px;
+
+}
+
+nav .menu{
+    display: flex;
+    list-style: none;
+    gap: 32px;
+    justify-content: center;
+}
+
+nav a{
+    font-size: 16px;
+    color: #000000;
+    text-decoration: none;
+}
+
+nav .nav-btn a {
+    background-color: #469165 ;
+    text-decoration: none;
+}
+
+.logo{
+    width: 139px;
+    height: 60px;
+    margin-top: 16px;
+    margin-bottom: 16px;
+    margin-left: 120px;
+    color: #FFFFFF;
+}
+    
+/* Hero  */
+#hero{
+    /* width: 100%; */
+    height: 764px;
+    padding: 166px 415px 76px 295px;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    background: url(../assets/hero-bg.png), no-repeat;
+    background-size: cover;
     background-color: #FFFFFF;
 }
 
-.navbar .nav-links{
-    display: flex;
-    gap: 32px;
-    align-items: center;
-    list-style-type: none;
-}
-
-.navear .nav-img{
-    width: 139px;
-    height: 60px;
-}
-
-.navbar .btn-hader{
-     width: 164px;
-     height: 44px;
-    display: flex;
-    /* flex-direction: row; */
-    justify-content: center;
-    /* align-items: center; */
-    gap: 10px;
-    padding: 12px 16px;
-    border-radius: 4px;
-    background-color:rgba(70, 145, 101, 1)  ;
-}
-
-.highlight {
-    background-color:#30B868;
-    color: white;
-}
-.navbar .nav-links a {
-    text-decoration: none;
-    color: #333;
-    font-
-}
