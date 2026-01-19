@@ -2,15 +2,23 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-}
-
-/* shared style */
-
-.font-open-sans-{
-  font-family: "Open Sans", sans-serif;
-  font-optical-sizing: auto;
   
 }
+
+body{
+    background-color: #FFFFFF;
+    /* color: #0f172a; */
+}
+/* shared style */
+
+.font-open-sans {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+}
+
+
 
 /* Buttons */
 .btn{
@@ -172,14 +180,114 @@ nav .nav-btn a {
     border-radius: 4px;
 }
 
-/* problems */
-#problems {
-    width: 100%;
-    max-height: 62%;
-    height: 448px;
-}
 
-.problem-container{
+/* Problem Section */
+
+#notes {
+    background-color: #FFFFFF;
+    width: 100%;
+
+    text-align: center;
+    /* max-height: 62%;
+    height: 448px; */
     
 }
+
+.note-container{
+    background-color: white;
+    padding: 0 120px 0 120px;
+    text-align: center;
+    align-items: center;
+}
+
+.notes-bar{
+   font-size: 48px;
+   font-weight: 700;
+   margin-top: 40px;
+   margin-bottom: 44px;
+   color: #001931;
+}
+
+.notes-bar p{
+    font-size: 16px;
+    /* font-weight: 400;
+    line-height: 20px; */
+    color: #627382;
+}
+
+.note-card{
+    justify-content: center;
+    padding: 0 120px 0 120px;
+    display: flex;
+    gap: 24px;
+    background-color: #FFFFFF;
+    margin-bottom: 48px;
+
+}
+
+
+.card{
+    gap: 24px;
+    margin: 0 auto;
+    /* padding: 20px 20px; */
+    text-align: center;
+    padding: 20px;
+    border: 2px solid #f0f0f0;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05), 
+              0 1px 8px rgba(0, 0, 0, 0.02);;
+}
+
+/* .card from gemini */
+
+/* .card {
+  /* Layout and Sizing */
+  /* width: 300px;
+  padding: 40px 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center; */
+
+  /* The "Box" Styling */
+  /* background-color: #ffffff;
+  border-radius: 12px; Smooth rounded corners */
+  
+  /* Soft, spread-out shadow */
+  /* box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05), 
+              0 1px 8px rgba(0, 0, 0, 0.02); */
+  
+  /* Optional: Very light border to define edges on white backgrounds */
+  /* border: 1px solid #f0f0f0; */
+/* } */ 
+
+
+
+.card h3{
+    text-align: center;
+    justify-content: center;
+    font-weight:400;
+    font-size: 24px;
+    margin-top: 16px;
+    margin-bottom: 12px;
+}
+
+.card p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    /* margin: 0px 24px 69px 24px; */
+    margin-bottom: 69px;
+    color: #627382;
+}
+
+.card img{
+    padding: 69px auto 170px auto;
+    background-color: #F95555;
+    border-radius: 10px;
+}
+
+
+/* Solution Section */
+
+
 
