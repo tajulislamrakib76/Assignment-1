@@ -185,27 +185,40 @@ nav .nav-btn a {
 
 #notes {
     background-color: #FFFFFF;
-    width: 100%;
-
     text-align: center;
-    /* max-height: 62%;
-    height: 448px; */
-    
+    justify-items: center;
 }
 
 .note-container{
+     /* width: 85%;
+    max-width: 1360px;
     background-color: white;
-    padding: 0 120px 0 120px;
+    margin: 0 auto;
     text-align: center;
     align-items: center;
+    justify-content: center; */
+
+
+    /* copy */
+
+    width:85% ;
+    max-width: 1360px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-items: stretch;
+    justify-content: center;
 }
 
 .notes-bar{
-   font-size: 48px;
-   font-weight: 700;
-   margin-top: 40px;
-   margin-bottom: 44px;
-   color: #001931;
+    /* width: 85%;
+    max-width: 1360px; */
+    font-size: 48px;
+    font-weight: 700;
+    margin-top: 40px;
+    margin-bottom: 44px;
+    color: #001931;
 }
 
 .notes-bar p{
@@ -217,19 +230,22 @@ nav .nav-btn a {
 
 .note-card{
     justify-content: center;
-    padding: 0 120px 0 120px;
+    align-items: center;
+    padding: 0 auto;
     display: flex;
     gap: 24px;
-    background-color: #FFFFFF;
     margin-bottom: 48px;
 
 }
 
 
 .card{
+    width: 23%;
+    max-width: 322px;
     gap: 24px;
     margin: 0 auto;
-    /* padding: 20px 20px; */
+    flex-direction: column;
+    padding: 20px 20px;
     text-align: center;
     padding: 20px;
     border: 2px solid #f0f0f0;
@@ -288,6 +304,58 @@ nav .nav-btn a {
 
 
 /* Solution Section */
+ #solution{
+    border: 120px;
+} 
+
+
+.solution-box{
+    width:85% ;
+    max-width: 1360px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 60px;
+    /* background-color: #22c55e; */
+}
+
+
+.img{
+    width: 600px;
+    height: 600px;
+    border-radius: 12px;
+
+}
+
+.box-text{
+    width: 51%;
+    max-width: 700px;
+    padding: 102px 0 120px;
+}
+
+.box-solution {
+    margin-bottom: 16px;
+}
+
+.box-text ul {
+    list-style-type: none;
+}
+.box-text h3{
+    margin-bottom: 16px;
+    line-height: auto;
+    font-size: 48px;
+    font-weight: 700;
+}
+
+
+.box-solution {
+    margin-bottom: 16px;
+}
+
+.box-pragraph{
+    margin-bottom: 16px;
+}
 
 
 
