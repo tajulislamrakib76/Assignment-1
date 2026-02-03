@@ -36,7 +36,13 @@ body{
     font-weight: 600;
     cursor: pointer;
     border: none;
+    hovereffect: scale(1.05);
 }
+
+.btn:hover{
+    background: #8DD8FF;
+}
+
 
 
 .btn-small{ 
@@ -116,13 +122,39 @@ nav .nav-btn a {
 }
 
 .badge {
-    width: 229px;
+    /* width: 229px; */
     height: 35px;
-    padding: 8px 12px 8px 12px;
+    display: inline-flex;
+    padding: 8px 12px 8px 16px;
+    gap: 12px;
     background-color: #FFFFFF;
     color: #469165;
-    border-radius: 1000px;
+    border-radius: 50px;
+    border: 1px solid rgba(0, 0, 0, 0.05);
     align-items: center;
+    justify-content: center;
+
+}
+
+.status-dot {
+    width: 12px;
+    height: 12px;
+    background-color: #22c55e;
+    border-radius: 50%;
+    display: inline-block;
+    position: relative;
+}
+
+.status-dot::before {
+    content: '';
+    position: absolute;
+    top: -4px;
+    left: -4px;
+    right: -4px;
+    bottom: -4px;
+    background-color: #3d8c5d;
+    opacity: 0.2;
+    border-radius: 50%;
 }
 
 .hero-text h1 {
@@ -215,12 +247,19 @@ nav .nav-btn a {
               0 1px 8px rgba(0, 0, 0, 0.02);;
 }
 
-.card img{
-    margin-top: 69.5px;
-    margin-bottom: 16px;
-    background: #F95555;
-    border: 2px solid #FFFFFF;
 
+
+.icon{
+    width: 50px;
+    height: 50px;
+    background-color: #ff4d4d;
+    color: #FFFFFF;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    margin: 0 auto 15px;
 }
 
 .note-card{
